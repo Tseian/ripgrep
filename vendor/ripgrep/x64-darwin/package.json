@@ -1,0 +1,16 @@
+{
+  "name": "@tse-ian/x64-darwin-ripgrep",
+  "version": "0.0.1",
+  "description": "ripgrep binary for x64-darwin",
+  "main": "ripgrep.node",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "files": [
+    "ripgrep.node",
+    "rg"
+  ]
+}

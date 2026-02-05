@@ -1,0 +1,16 @@
+{
+  "name": "@tse-ian/arm64-linux-ripgrep",
+  "version": "0.0.1",
+  "description": "ripgrep binary for arm64-linux",
+  "main": "ripgrep.node",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "files": [
+    "ripgrep.node",
+    "rg"
+  ]
+}

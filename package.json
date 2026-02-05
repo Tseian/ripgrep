@@ -1,0 +1,35 @@
+{
+  "name": "@tse-ian/ripgrep",
+  "version": "0.0.1",
+  "description": "ripgrep node.js addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tseian/ripgrep.git"
+  },
+  "keywords": [
+    "ripgrep",
+    "Node.js",
+    "addon"
+  ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "author": "tseian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tseian/ripgrep/issues"
+  },
+  "homepage": "https://github.com/Tseian/ripgrep#readme",
+  "optionalDependencies": {
+    "@tse-ian/x64-darwin-ripgrep": "0.0.1",
+    "@tse-ian/arm64-darwin-ripgrep": "0.0.1",
+    "@tse-ian/x64-linux-ripgrep": "0.0.1",
+    "@tse-ian/arm64-linux-ripgrep": "0.0.1",
+    "@tse-ian/x64-win32-ripgrep": "0.0.1"
+  }
+}
